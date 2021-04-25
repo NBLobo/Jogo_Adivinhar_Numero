@@ -17,7 +17,7 @@ def pensarnumero():
 jogo = input('Está pronto para iniciar?(sim/não): ').lower().strip()[0]
 if jogo != 's':
     print('\033[1;32mAté a próxima!!!...\n Fim do Jogo.\033[m')
-    exit
+    exit()
 else:
     print('OK! VAMOS AO JOGO.')
     clear()
